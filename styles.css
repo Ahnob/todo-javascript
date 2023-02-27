@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: -webkit-linear-gradient(120deg, rgb(144, 87, 201), rgb(123, 191, 230));
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;   
+}
