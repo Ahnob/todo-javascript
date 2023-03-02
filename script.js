@@ -34,5 +34,5 @@ function addTodo(event) {
   todoDiv.appendChild(trashButton);
 
   //    append to list
-  todoList.appendChild(todoDiv);
+  // todoList.appendChild(todoDiv) ;
 }
