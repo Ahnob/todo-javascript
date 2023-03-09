@@ -88,3 +88,7 @@ li{
     background-color: blueviolet;
 }
 
+.fa-trash, .fa-check{
+    pointer-events:none;
+}
+
