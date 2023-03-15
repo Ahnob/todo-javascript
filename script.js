@@ -45,6 +45,17 @@ function deleteCheck(e) {
   const item = e.target;
   // Deleting todo
   if (item.classList[0] === "trash-btn") {
-    item.remove();
+    const todo = item.parentElement;
+    // Animation
+    // todo.appendChild.add();
+    todo.classList.add("fall");
+    todo.addEventListener("transitioned", function () {
+      todo.remove();
+    });
+  }
+  // checkmark
+  if (item.classList[0] === "complete-btn") {
+    const todo = item.parentElement;
+    todo.classList.toggle("completed");
   }
 }

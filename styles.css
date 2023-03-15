@@ -55,9 +55,6 @@ li{
 .todo-list{
     min-width: 20%;
     padding: 2px 30px 0 2px;
-
-
-
 }
 
 .todo{
@@ -69,6 +66,7 @@ li{
     justify-content: space-between;
     align-items: center;
     padding: 0px 0px 0px 15px;
+    transition: all 0.5s ease;
 }
 
 .todo li{
@@ -93,3 +91,16 @@ li{
     pointer-events:none;
 }
 
+.completed{
+    text-decoration:line-through;
+    opacity: 0.5;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+
+select{
+    -webkit-appearance: none;
+}
